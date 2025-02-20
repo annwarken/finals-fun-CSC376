@@ -1,0 +1,58 @@
+/* styles for header */
+header {
+    text-align: center;
+    background-color: #d7d8f5;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1{
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px black;
+    margin: 0;
+    color: #343cce;
+}
+
+/* styles for nav bar */
+nav {
+    background-color: #343cce; 
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+/* styles for the body */
+h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color:#343cce;
+}
+
+h3 {
+    width: 100%;
+    color: white;
+    background-color: #343cce;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    text-align: center;
+    padding: 5px;
+}
